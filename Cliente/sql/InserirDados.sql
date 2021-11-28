@@ -1,0 +1,4 @@
+﻿SET IDENTITY_INSERT [dbo].[cliente] ON
+INSERT INTO [dbo].[cliente] ([id], [nome], [cpf], [cnpj], [cep], [ie], [razao_social], [telefone], [estado], [cidade], [bairro], [rua], [numero_casa]) VALUES (4009, N'João', N'913.538.530-80', N'', N'08090-284', N'', N'', N'(11)99999999', N'SP', N'São Paulo', N'Jardim Helena', N'03 de Outubro', 123)
+INSERT INTO [dbo].[cliente] ([id], [nome], [cpf], [cnpj], [cep], [ie], [razao_social], [telefone], [estado], [cidade], [bairro], [rua], [numero_casa]) VALUES (4010, N'X', N'', N'27.776.433/0001-90', N'04849-529', N'123456789', N'Empresa X', N'(17)99999999', N'SP', N'São Paulo', N'Cantinho do Céu', N'13 de Maio', 11)
+SET IDENTITY_INSERT [dbo].[cliente] OFF
